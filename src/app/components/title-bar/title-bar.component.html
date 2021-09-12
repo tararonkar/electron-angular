@@ -1,0 +1,12 @@
+<div class="container-fluid bg-dark text-light">
+  <div class="row justify-content-center" style="height: 30px; line-height: 30px;">
+    <div class="col d-flex justify-content-start drag-region">
+      <i class="bi bi-terminal-fill text-warning"></i> <span class="mx-2 text-muted"> MyAppTitle</span>
+    </div>
+    <div class="col-2 d-flex justify-content-end">
+      <a (click)="minimize()" class="btn btn-sm hover-warning  px-1 align-right"><i class="bi bi-dash-square-fill"></i></a>
+      <a (click)="maximize()" class="btn btn-sm hover-warning px-1 align-right"><i class="bi bi-plus-square-fill"></i></a>
+      <a (click)="close()" class="btn btn-sm hover-danger px-1 align-right"><i class="bi bi-x-square-fill"></i></a>
+    </div>
+  </div>
+</div>

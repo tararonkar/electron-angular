@@ -1,0 +1,16 @@
+.drag-region{
+  -webkit-app-region: drag;
+}
+
+.hover-warning,.hover-danger{
+  color: #444444;
+  transition: all .5s ease;
+}
+
+.hover-warning:hover{
+  color: #ffc107;
+}
+
+.hover-danger:hover{
+  color: #dc3545;
+}

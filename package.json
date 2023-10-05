@@ -58,7 +58,7 @@
     "@angular/compiler-cli": "~12.2.0",
     "@types/jasmine": "~3.8.0",
     "@types/node": "^12.11.1",
-    "electron": "^14.0.0",
+    "electron": "^22.3.25",
     "electron-builder": "^22.11.7",
     "electron-reload": "^2.0.0-alpha.1",
     "jasmine-core": "~3.8.0",
